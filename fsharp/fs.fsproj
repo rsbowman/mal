@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="mal.fs" />
+    <Compile Include="error.fs" />
+    <Compile Include="reader.fs" />
+    <Compile Include="env.fs" />
+    <Compile Include="eval.fs" />
+    <Compile Include="core.fs" />
+    <Compile Include="step1_read_print.fs" />
+    <Compile Include="step2_eval.fs" />
+    <Compile Include="step3_env.fs" />
+    <Compile Include="step4_if_fn_do.fs" />
+    <Compile Include="step5_tco.fs" />
+    <Compile Include="step6_file.fs" />
+    <Compile Include="step7_quote.fs" />
+  </ItemGroup>
+
+</Project>
